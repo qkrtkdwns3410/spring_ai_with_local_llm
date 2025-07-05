@@ -1,0 +1,13 @@
+spring:
+  docker:
+    compose:
+      enabled: true
+      file: docker-compose.yml
+
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      model: mistral
+
+  elasticsearch:
+    uris: http://localhost:9200
